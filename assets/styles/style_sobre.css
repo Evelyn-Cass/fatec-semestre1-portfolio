@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --color1: #7D0A0A;
+    --color2: #BF3131;
+    --color3: #EAD196;
+    --color4: #F3EDC8;
+    --color-text: #000;
+}
+
+.container {
+    color: var(--color4);
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+
+.animacao {
+    height: 50px;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+.animacao>div>div {
+    padding: 0.25rem 1rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.primeiro,
+.segundo,
+.terceiro {
+    text-align: center;
+}
+
+.animacao div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+.primeiro div {
+    background-color: #63B9D3;
+}
+
+.segundo div {
+    background-color: #F05260;
+}
+
+.terceiro div {
+    background-color: #43A377;
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -5.62rem;
+    }
+
+    30% {
+        margin-top: -5.62rem;
+    }
+
+    40% {
+        margin-top: -11.24rem;
+    }
+
+    60% {
+        margin-top: -11.24rem;
+    }
+
+    70% {
+        margin-top: -5.62rem;
+    }
+
+    80% {
+        margin-top: -5.62rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    padding: 10px;
+}

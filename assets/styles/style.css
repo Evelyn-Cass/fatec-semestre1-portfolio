@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --color1: #7D0A0A;
     --color2: #BF3131;
@@ -11,9 +13,11 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-body{
-    background-color: var(--color4);    
+
+body {
+    background-color: var(--color4);
 }
+
 .sidenav {
     height: 100%;
     width: 20%;
@@ -41,8 +45,9 @@ body{
 }
 
 .menu:hover {
-    color: var(--color4);
+   color: var(--color4);
     transition: 0.5s;
+    text-shadow: var(--color2) 0 0 20px;
 }
 
 main {
@@ -50,24 +55,20 @@ main {
     left: 0;
     right: 0;
     margin-right: 20%;
-    padding: 0px 10px;
-    height: 100%;
+    padding: 0px 10px;  
     background-color: var(--color4);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-.photo {
-    width: 150px;
-    height: 150px;
-}
-
-h1{
-    padding: 10px;
-}
-p{
+p {
     width: 70%;
     text-align: center;
+    padding-top: 1%;
 }
+
+
+  
+  
+  

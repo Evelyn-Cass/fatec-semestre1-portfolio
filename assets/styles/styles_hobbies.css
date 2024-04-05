@@ -1,0 +1,22 @@
+main {
+    margin-top: 8%;
+}
+.container{
+    display: flex;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10%;
+}
+h1{
+    width: 80%;
+    text-align: center;
+}
