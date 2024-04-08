@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+    text-shadow: none;
 }
 
 .animacao {
@@ -43,15 +44,15 @@
 }
 
 .primeiro div {
-    background-color: #63B9D3;
+    background-color: var(--color1);
 }
 
 .segundo div {
-    background-color: #F05260;
+    background-color: var(--color1);
 }
 
 .terceiro div {
-    background-color: #43A377;
+    background-color: var(--color1);
 }
 
 @keyframes text-animation {
