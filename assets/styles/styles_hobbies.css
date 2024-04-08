@@ -1,3 +1,10 @@
+:root {
+    --color1: #7286D3;
+    --color2: #8EA7E9;
+    --color3: #E5E0FF;
+    --color4: #FFF2F2;
+    --color-text: #000;
+}
 main {
     margin-top: 8%;
 }
@@ -12,7 +19,7 @@ main {
 }
 
 .box {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -61,6 +68,7 @@ p {
     animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
+        -webkit-text-stroke: 0.3px white;
 }
  
 @keyframes floating {

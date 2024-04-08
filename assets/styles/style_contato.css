@@ -1,3 +1,10 @@
+:root {
+    --color1: #7286D3;
+    --color2: #8EA7E9;
+    --color3: #E5E0FF;
+    --color4: #FFF2F2;
+    --color-text: #000;
+}
 main {
     margin-top: 8%;
 }

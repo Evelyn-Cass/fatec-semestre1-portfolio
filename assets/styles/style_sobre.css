@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --color1: #7D0A0A;
-    --color2: #BF3131;
-    --color3: #EAD196;
-    --color4: #F3EDC8;
+    --color1: #7286D3;
+    --color2: #8EA7E9;
+    --color3: #E5E0FF;
+    --color4: #FFF2F2;
     --color-text: #000;
 }
-
 .container {
     color: var(--color4);
     font-size: 2.26rem;
