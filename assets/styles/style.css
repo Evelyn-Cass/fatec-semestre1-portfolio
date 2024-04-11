@@ -20,16 +20,14 @@ body {
 }
 
 .sidenav {
-
     height: 100%;
     width: 20%;
     position: fixed;
     z-index: 1;
     top: 0;
-    right: 0;
+    left: 0;
     background-color: var(--color1);
     overflow-x: hidden;
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +48,7 @@ main {
     position: absolute;
     left: 0;
     right: 0;
-    margin-right: 20%;
+    margin-left: 20%;
     padding: 0px 10px;
     background-color: transparent;
     display: flex;
@@ -68,16 +66,13 @@ p {
 
 }
 
-
-
-
 a {
     color: var(--color4);
     position: relative;
     text-decoration: none;
-  }
-  
-  a::before {
+}
+
+a::before {
     background: var(--color2);
     content: "";
     inset: 0;
@@ -86,45 +81,21 @@ a {
     transform-origin: right;
     transition: transform 0.5s ease-in-out;
     z-index: -1;
-  }
-  
-  a:hover::before {
+}
+
+a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
-  }
-  
-
-  
-
-/* a {
-    background-image: linear-gradient(to right,
-            var(--color4),
-            var(--color4) 50%,
-            var(--color3) 50%);
-    background-size: 200% 100%;
-    background-position: -100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 01s ease-in-out;
-
-
 }
-
-a:hover {
-    background-position: 0;
-}
- */
-
-
-
 
 .circles {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: -1;
 }
 
 .circles li {
@@ -232,4 +203,119 @@ a:hover {
         border-radius: 50%;
     }
 
+}
+
+/*Sobre*/
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sobre .container {
+    color: var(--color4);
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    text-shadow: none;
+}
+
+.sobre .animacao {
+    height: 50px;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+.sobre .animacao>div>div {
+    padding: 0.25rem 1rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.sobre .primeiro,
+.sobre .segundo,
+.sobre .terceiro {
+    text-align: center;
+}
+
+.sobre .animacao div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+.sobre .primeiro div {
+    background-color: var(--color1);
+}
+
+.sobre .segundo div {
+    background-color: var(--color1);
+}
+
+.sobre .terceiro div {
+    background-color: var(--color1);
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -5.62rem;
+    }
+
+    30% {
+        margin-top: -5.62rem;
+    }
+
+    40% {
+        margin-top: -11.24rem;
+    }
+
+    60% {
+        margin-top: -11.24rem;
+    }
+
+    70% {
+        margin-top: -5.62rem;
+    }
+
+    80% {
+        margin-top: -5.62rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.sobre .photo {
+    width: 150px;
+    height: 150px;
+}
+
+/*Contato*/
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contato img {
+    width: 100px;
+    height: 100px;
 }
