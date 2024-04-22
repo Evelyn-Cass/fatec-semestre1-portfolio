@@ -8,8 +8,34 @@
 main {
     margin-top: 8%;
 }
-.contato img {
+img {
     width: 100px;
     height: 100px;
-    margin-right: 10%;
 }
+.icons{
+    display: flex;
+   
+}
+.icons div{
+    margin-right: 5%;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    text-shadow: none;
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .icon:hover{
+    background-color: var(--color2);
+ }
+ .icon img{
+    width: 25px;
+    height: 25px;
+    margin: 0%;
+ }

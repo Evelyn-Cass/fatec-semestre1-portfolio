@@ -66,13 +66,13 @@ p {
 
 }
 
-a {
+.sidenav a {
     color: var(--color4);
     position: relative;
     text-decoration: none;
 }
 
-a::before {
+.sidenav a::before {
     background: var(--color2);
     content: "";
     inset: 0;
@@ -83,7 +83,7 @@ a::before {
     z-index: -1;
 }
 
-a:hover::before {
+.sidenav a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
 }
@@ -212,6 +212,7 @@ a:hover::before {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10%;
 }
 .sobre .container {
     color: var(--color4);
@@ -305,17 +306,4 @@ a:hover::before {
 .sobre .photo {
     width: 150px;
     height: 150px;
-}
-
-/*Contato*/
-
-.contato{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.contato img {
-    width: 100px;
-    height: 100px;
 }
