@@ -5,6 +5,7 @@
     --color4: #FFF2F2;
     --color-text: #000;
 }
+
 main {
     margin-top: 8%;
 }
@@ -19,7 +20,7 @@ main {
 }
 
 .box {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -47,32 +48,30 @@ p {
 
 
 #images {
-    -webkit-animation: images 2s alternate infinite ease-in-out;
-            animation: images 2s alternate infinite ease-in-out;
+    /* -webkit-animation: images 4s alternate infinite ease-in-out;*/
+    animation: images 3.5s alternate infinite ease-in-out;
 }
 
 @-webkit-keyframes images {
-    from {-webkit-transform: rotate(4deg)}
-    to   {-webkit-transform: rotate(-4deg)}
+    from {
+        -webkit-transform: rotate(4deg)
+    }
+
+    to {
+        -webkit-transform: rotate(-4deg)
+    }
 }
 
 @keyframes images {
-    from {transform: rotate(4deg)}
-    to   {transform: rotate(-4deg)}
-}
+    0% {
+        transform: rotate(4deg)
+    }
 
-/* .floating {  
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-        -webkit-text-stroke: 0.3px white;
+    50% {
+        transform: rotate(-4deg)
+    }
+
+    100% {
+        transform: rotate(4deg)
+    }
 }
- 
-@keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }    
-} */

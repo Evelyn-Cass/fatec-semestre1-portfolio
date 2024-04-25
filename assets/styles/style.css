@@ -56,7 +56,6 @@ main {
     align-items: center;
     justify-content: center;
     text-shadow: 0px 0px 5px var(--color4);
-
 }
 
 p {
@@ -207,13 +206,13 @@ p {
 
 /*Sobre*/
 
-.sobre{
+.sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10%;
 }
+
 .sobre .container {
     color: var(--color4);
     font-size: 2.26rem;
@@ -306,4 +305,51 @@ p {
 .sobre .photo {
     width: 150px;
     height: 150px;
+}
+
+/*Contato*/
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.contato img {
+    width: 100px;
+    height: 100px;
+}
+
+.contato .icons {
+    display: flex;
+
+}
+
+.contato .icons div {
+    margin-right: 5%;
+}
+
+.contato .icon {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    text-shadow: none;
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato .icon:hover {
+    background-color: var(--color2);
+}
+
+.contato .icon img {
+    width: 25px;
+    height: 25px;
+    margin: 0%;
 }
