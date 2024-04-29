@@ -1,0 +1,29 @@
+:root {
+    --color1: #7286D3;
+    --color2: #8EA7E9;
+    --color3: #E5E0FF;
+    --color4: #FFF2F2;
+    --color-text: #000;
+}
+main {
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+img {
+    width: 700px;
+    border: var(--color1) 10px solid;
+    border-radius: 5%;
+    margin-bottom: 2%;
+}
+.mapa{
+    border: var(--color1) 10px solid;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 600px; 
+    height: 450px;
+}
+iframe{
+    border: var(--color1) 10px solid;
+    border-radius: 3%;  
+}
