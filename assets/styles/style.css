@@ -305,6 +305,9 @@ p {
 .sobre .photo {
     width: 150px;
     height: 150px;
+    border: var(--color1) 10px solid;
+    border-radius: 100%;
+    background-color:  rgba(115, 134, 209,0.3);
 }
 
 /*Hobbies*/
