@@ -19,7 +19,7 @@ body {
     background-color: var(--color4);
 }
 
-.sidenav {
+nav {
     height: 100%;
     width: 20%;
     position: fixed;
@@ -32,6 +32,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-shadow: none;
 }
 
 .menu {
@@ -65,13 +66,13 @@ p {
 
 }
 
-.sidenav a {
+nav a {
     color: var(--color4);
     position: relative;
     text-decoration: none;
 }
 
-.sidenav a::before {
+nav a::before {
     background: var(--color2);
     content: "";
     inset: 0;
@@ -82,7 +83,7 @@ p {
     z-index: -1;
 }
 
-.sidenav a:hover::before {
+nav a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
 }
