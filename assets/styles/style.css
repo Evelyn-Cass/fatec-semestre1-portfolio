@@ -19,6 +19,10 @@ body {
     background-color: var(--color4);
 }
 
+/* Menu */
+.menu_icon{
+    visibility: hidden;
+}
 nav {
     height: 100%;
     width: 20%;
@@ -72,6 +76,14 @@ nav a {
     text-decoration: none;
 }
 
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    visibility: hidden;
+}
+
 nav a::before {
     background: var(--color2);
     content: "";
@@ -88,6 +100,7 @@ nav a:hover::before {
     transform-origin: left;
 }
 
+/* Circles */
 .circles {
     position: fixed;
     top: 0;
@@ -229,7 +242,6 @@ nav a:hover::before {
 .sobre .animacao {
     height: 50px;
     overflow: hidden;
-    margin-left: 1rem;
 }
 
 .sobre .animacao>div>div {
@@ -308,7 +320,7 @@ nav a:hover::before {
     height: 150px;
     border: var(--color1) 10px solid;
     border-radius: 100%;
-    background-color:  rgba(115, 134, 209,0.3);
+    background-color: rgba(115, 134, 209, 0.3);
 }
 
 /*Hobbies*/
@@ -430,4 +442,47 @@ nav a:hover::before {
     width: 25px;
     height: 25px;
     margin: 0%;
+}
+
+/*Responsividade*/
+
+@media (max-width: 600px) {
+    nav {
+        visibility: hidden;
+    }
+    main {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        left: 0;
+        right: 0;
+        padding: 10% 0 0 0 ;
+        position: initial;
+    }
+
+    .sobre .container {
+        flex-direction: column-reverse;
+        font-size: 15px;
+    }
+
+    p {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .hobbies .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hobbies h1 {
+        width: 90%;
+    }
+
+    .hobbies p {
+        width: 80%;
+    }
+
+
+
 }
