@@ -403,11 +403,9 @@ nav a:hover::before {
 
 .contato .icons {
     display: flex;
-
-}
-
-.contato .icons div {
-    margin-right: 5%;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: space-between;
 }
 
 .contato .icon {
@@ -421,6 +419,7 @@ nav a:hover::before {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 2%;
 }
 
 .contato .icon:hover {
