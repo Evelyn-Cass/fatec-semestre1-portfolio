@@ -20,9 +20,10 @@ body {
 }
 
 /* Menu */
-.menu_icon{
+.menu_icon {
     visibility: hidden;
 }
+
 nav {
     height: 100%;
     width: 20%;
@@ -32,11 +33,19 @@ nav {
     left: 0;
     background-color: var(--color1);
     overflow-x: hidden;
+    text-shadow: none;
+}
+
+.nav_desktop {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-shadow: none;
+}
+
+.nav_phone {
+    display: none;
 }
 
 .menu {
@@ -436,6 +445,7 @@ nav a:hover::before {
 
 .contato .icon:hover {
     background-color: var(--color2);
+    transition: 1s;
 }
 
 .contato .icon img {
@@ -448,15 +458,44 @@ nav a:hover::before {
 
 @media (max-width: 600px) {
     nav {
-        visibility: hidden;
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
     }
+
+    .nav_desktop {
+        display: none;
+    }
+
+    .nav_phone {
+        height: 10%;
+        width: 100%;
+        top: 0;
+        visibility: visible;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav_phone img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu {
+        margin: 0;
+        padding: 0 5%;
+    }
+
     main {
         height: 100%;
         width: 100%;
-        margin: 0;
+        margin: 10% 0 0 0;
         left: 0;
         right: 0;
-        padding: 10% 0 0 0 ;
+        padding: 10% 0 0 0;
         position: initial;
     }
 
