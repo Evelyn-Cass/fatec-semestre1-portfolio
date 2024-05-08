@@ -5,11 +5,7 @@
     --color4: #FFF2F2;
     --color-text: #000;
 }
-main {
-    margin-top: 5%;
-    padding-bottom: 5%;
-}
-img {
+main img {
     width: 700px;
     border: var(--color1) 10px solid;
     border-radius: 5%;
@@ -26,4 +22,29 @@ img {
 iframe{
     border: var(--color1) 10px solid;
     border-radius: 3%;  
+}
+
+/*Responsividade*/
+
+@media (max-width: 600px) {
+    main img {
+        width: 100%;
+        border: none;
+        border-bottom: var(--color1) 10px solid;
+        border-radius: 0;
+        margin: 0;
+    }
+    .mapa{
+        width: 100%;
+        border: none;
+        border-bottom: var(--color1) 10px solid;
+        border-top: var(--color1) 10px solid;
+        border-radius: 0;
+        margin: 0;
+    }
+    iframe{
+        border-radius: 0;
+        width: 100%;
+    }
+
 }

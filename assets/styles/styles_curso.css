@@ -6,19 +6,39 @@
     --color-text: #000;
 }
 
-main {
-    margin-top: 5%;
-    padding-bottom: 5%;
-}
-img {
+main img {
     width: 500px;
     border: var(--color1) 10px solid;
     border-radius: 5%;
     margin-bottom: 2%;
 }
-.info{
+
+.info {
     padding: 0.5%;
 }
-h2{
+
+h2 {
     padding-top: 2%;
+}
+
+/*Responsividade*/
+
+@media (max-width: 600px) {
+    main img {
+        width: 100%;
+        border: none;
+        border-bottom: var(--color1) 10px solid;
+        border-radius: 0;
+        margin: 0;
+    }
+    h1 {
+        text-align: center;
+        width: 80%;
+
+    }
+    .link{
+        text-align: center;
+        width: 80%;
+    }
+
 }

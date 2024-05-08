@@ -6,10 +6,6 @@
     --color-text: #000;
 }
 
-main {
-    margin-top: 8%;
-}
-
 .container {
     display: grid;
     grid-template-columns: 200px 400px;
@@ -50,4 +46,24 @@ h1 {
 .box p {
     width: 100%;
     text-align: justify;
+}
+h3{
+    text-align: center;
+}
+/*Responsividade*/
+@media (max-width: 600px) {
+    main{
+        margin-top: 20%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .container p {
+        width: 100%;
+    }
+    .box img{
+        margin:0;
+    }
 }

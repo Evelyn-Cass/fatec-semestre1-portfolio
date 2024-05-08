@@ -58,27 +58,6 @@ nav {
 
 }
 
-main {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: 20%;
-    padding: 0px 10px;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 0px 0px 5px var(--color4);
-}
-
-p {
-    width: 70%;
-    text-align: center;
-    padding-top: 1%;
-
-}
-
 nav a {
     color: var(--color4);
     position: relative;
@@ -108,6 +87,28 @@ nav a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
 }
+
+/*body*/
+main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 3% 0 0 20%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 0px 5px var(--color4);
+}
+
+p {
+    width: 70%;
+    text-align: center;
+    padding-top: 1%;
+
+}
+
 
 /* Circles */
 .circles {
@@ -227,301 +228,3 @@ nav a:hover::before {
 
 }
 
-/*Sobre*/
-
-.sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.sobre .container {
-    color: var(--color4);
-    font-size: 2.26rem;
-    text-transform: uppercase;
-    display: flex;
-    font-weight: 700;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-    text-shadow: none;
-}
-
-.sobre .animacao {
-    height: 50px;
-    overflow: hidden;
-}
-
-.sobre .animacao>div>div {
-    padding: 0.25rem 1rem;
-    height: 2.81rem;
-    margin-bottom: 2.81rem;
-    display: inline-block;
-}
-
-.sobre .primeiro,
-.sobre .segundo,
-.sobre .terceiro {
-    text-align: center;
-}
-
-.sobre .animacao div:first-child {
-    animation: text-animation 8s infinite;
-}
-
-.sobre .primeiro div {
-    background-color: var(--color1);
-}
-
-.sobre .segundo div {
-    background-color: var(--color1);
-}
-
-.sobre .terceiro div {
-    background-color: var(--color1);
-}
-
-@keyframes text-animation {
-    0% {
-        margin-top: 0;
-    }
-
-    10% {
-        margin-top: 0;
-    }
-
-    20% {
-        margin-top: -5.62rem;
-    }
-
-    30% {
-        margin-top: -5.62rem;
-    }
-
-    40% {
-        margin-top: -11.24rem;
-    }
-
-    60% {
-        margin-top: -11.24rem;
-    }
-
-    70% {
-        margin-top: -5.62rem;
-    }
-
-    80% {
-        margin-top: -5.62rem;
-    }
-
-    90% {
-        margin-top: 0;
-    }
-
-    100% {
-        margin-top: 0;
-    }
-}
-
-.sobre .photo {
-    width: 150px;
-    height: 150px;
-    border: var(--color1) 10px solid;
-    border-radius: 100%;
-    background-color: rgba(115, 134, 209, 0.3);
-}
-
-/*Hobbies*/
-
-.hobbies {
-    padding-top: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 200px 400px;
-    grid-template-rows: auto auto;
-    gap: 20px;
-    margin-top: 2%;
-
-}
-
-.hobbies .box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-
-}
-
-.hobbies .box img {
-    width: 100px;
-    height: 100px;
-    margin-right: 10%;
-}
-
-.hobbies h1 {
-    width: 80%;
-    text-align: center;
-}
-
-.hobbies p {
-    width: 100%;
-    text-align: justify;
-}
-
-#images {
-    /* -webkit-animation: images 4s alternate infinite ease-in-out;*/
-    animation: images 3.5s alternate infinite ease-in-out;
-}
-
-@-webkit-keyframes images {
-    from {
-        -webkit-transform: rotate(4deg)
-    }
-
-    to {
-        -webkit-transform: rotate(-4deg)
-    }
-}
-
-@keyframes images {
-    0% {
-        transform: rotate(4deg)
-    }
-
-    50% {
-        transform: rotate(-4deg)
-    }
-
-    100% {
-        transform: rotate(4deg)
-    }
-}
-
-
-/*Contato*/
-
-.contato {
-    padding-top: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 10%;
-}
-
-.contato img {
-    width: 100px;
-    height: 100px;
-}
-
-.contato .icons {
-    display: flex;
-    flex-wrap: wrap;
-    width: 200px;
-    justify-content: space-between;
-}
-
-.contato .icon {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    text-shadow: none;
-    background-color: var(--color1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2%;
-}
-
-.contato .icon:hover {
-    background-color: var(--color2);
-    transition: 1s;
-}
-
-.contato .icon img {
-    width: 25px;
-    height: 25px;
-    margin: 0%;
-}
-
-/*Responsividade*/
-
-@media (max-width: 600px) {
-    nav {
-        height: 10%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-
-    .nav_desktop {
-        display: none;
-    }
-
-    .nav_phone {
-        height: 10%;
-        width: 100%;
-        top: 0;
-        visibility: visible;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .nav_phone img {
-        width: 25px;
-        height: 25px;
-    }
-
-    .menu {
-        margin: 0;
-        padding: 0 5%;
-    }
-
-    main {
-        height: 100%;
-        width: 100%;
-        margin: 10% 0 0 0;
-        left: 0;
-        right: 0;
-        padding: 10% 0 0 0;
-        position: initial;
-    }
-
-    .sobre .container {
-        flex-direction: column-reverse;
-        font-size: 15px;
-    }
-
-    p {
-        width: 80%;
-        text-align: justify;
-    }
-
-    .hobbies .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hobbies h1 {
-        width: 90%;
-    }
-
-    .hobbies p {
-        width: 80%;
-    }
-
-
-
-}
