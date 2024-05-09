@@ -226,6 +226,34 @@ p {
     }   
 
 }   
+#images {
+    /* -webkit-animation: images 4s alternate infinite ease-in-out;*/
+    animation: images 3.5s alternate infinite ease-in-out;
+}
+
+@-webkit-keyframes images {
+    from {
+        -webkit-transform: rotate(4deg)
+    }
+
+    to {
+        -webkit-transform: rotate(-4deg)
+    }
+}
+
+@keyframes images {
+    0% {
+        transform: rotate(4deg)
+    }
+
+    50% {
+        transform: rotate(-4deg)
+    }
+
+    100% {
+        transform: rotate(4deg)
+    }
+}
 
 /*Responsividade*/  
 
@@ -269,34 +297,5 @@ p {
         padding: 0; 
         bottom: 0;
     }   
-
-    .sobre .container { 
-        flex-direction: column-reverse; 
-        font-size: 15px;    
-    }   
-
-    p { 
-        width: 80%; 
-        text-align: justify;    
-    }   
-
-    .hobbies .container {   
-        display: flex;  
-        flex-direction: column; 
-    }   
-
-    .hobbies .box img { 
-        margin-right: 0;    
-    }   
-
-    .hobbies h1 {   
-        width: 90%; 
-    }   
-
-    .hobbies p {    
-        width: 80%; 
-    }   
-
-
 
 }   

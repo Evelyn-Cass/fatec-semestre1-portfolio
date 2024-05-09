@@ -16,12 +16,12 @@ main img {
     border-radius: 5%;
     margin-bottom: 2%;
     margin-top: 2%;
-    width: 600px; 
-    height: 450px;
+    width: 700px; 
 }
 iframe{
     border: var(--color1) 10px solid;
-    border-radius: 3%;  
+    border-radius: 3%; 
+    width: 700px; 
 }
 
 /*Responsividade*/
@@ -36,6 +36,7 @@ iframe{
         border-bottom: var(--color1) 10px solid;
         border-radius: 0;
         margin: 0;
+        height: 450px;
     }
     .mapa{
         width: 100%;
@@ -44,6 +45,7 @@ iframe{
         border-top: var(--color1) 10px solid;
         border-radius: 0;
         margin: 0;
+        height: 450px;
     }
     iframe{
         border-radius: 0;
