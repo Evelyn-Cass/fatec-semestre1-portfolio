@@ -24,6 +24,9 @@ h2 {
 /*Responsividade*/
 
 @media (max-width: 600px) {
+    main {  
+        height: 90%;    
+    }
     main img {
         width: 100%;
         border: none;
