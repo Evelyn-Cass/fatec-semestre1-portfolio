@@ -15,13 +15,19 @@ Para a realização desta atividade, devem se utilizados e conter:
 - Informações de contato
 - Informações sobre a Fatec
 
+## Como Acessar
+
+ - Acesse o portifólio pelo: [fatec-portifolio.vercel.app](https://fatec-portifolio.vercel.app/) 
+
 ## Demonstração
 
-
+### Desktop
 ![alt text](assets/images/captura-tela1.png)
 
 ![alt text](assets/images/captura-tela2.png)
 
-![alt text](assets/images/captura-tela3.png)
 
+### Smartphone
 ![alt text](assets/images/captura-tela4.png)
+
+![alt text](assets/images/captura-tela3.png)
