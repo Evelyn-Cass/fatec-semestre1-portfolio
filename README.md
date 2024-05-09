@@ -28,6 +28,5 @@ Para a realização desta atividade, devem se utilizados e conter:
 
 
 ### Smartphone
-![alt text](assets/images/captura-tela4.png)
 
-![alt text](assets/images/captura-tela3.png)
+![alt text](assets/images/captura-tela4.png)  ![alt text](assets/images/captura-tela3.png)
