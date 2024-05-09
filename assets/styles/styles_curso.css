@@ -6,11 +6,12 @@
     --color-text: #000;
 }
 
-main img {
+video {
     width: 500px;
     border: var(--color1) 10px solid;
     border-radius: 5%;
     margin-bottom: 2%;
+    object-fit: cover;    
 }
 
 .info {
@@ -27,7 +28,7 @@ h2 {
     main {  
         height: 90%;    
     }
-    main img {
+    video {
         width: 100%;
         border: none;
         border-bottom: var(--color1) 10px solid;

@@ -17,11 +17,13 @@ main img {
     margin-bottom: 2%;
     margin-top: 2%;
     width: 700px; 
+    height: 450px;
 }
 iframe{
     border: var(--color1) 10px solid;
     border-radius: 3%; 
     width: 700px; 
+    height: 450px;
 }
 
 /*Responsividade*/
