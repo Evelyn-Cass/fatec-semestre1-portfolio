@@ -226,7 +226,7 @@ p {
     }   
 
 }   
-#images {
+.images {
     /* -webkit-animation: images 4s alternate infinite ease-in-out;*/
     animation: images 3.5s alternate infinite ease-in-out;
 }
