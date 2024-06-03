@@ -215,7 +215,7 @@ p {
 
     0% {    
         transform: translateY(0) rotate(0deg);  
-        opacity: 2; 
+        opacity: 1; 
         border-radius: 0;   
     }   
 
@@ -231,15 +231,6 @@ p {
     animation: images 3.5s alternate infinite ease-in-out;
 }
 
-@-webkit-keyframes images {
-    from {
-        -webkit-transform: rotate(4deg)
-    }
-
-    to {
-        -webkit-transform: rotate(-4deg)
-    }
-}
 
 @keyframes images {
     0% {
