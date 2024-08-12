@@ -17,7 +17,7 @@ Para a realização desta atividade, devem se utilizados e conter:
 
 ## Como Acessar
 
- - Acesse o portifólio pelo: [fatec-portifolio.vercel.app](https://fatec-portifolio.vercel.app/) 
+ - Acesse o portfólio pelo: [fatec-portifolio.vercel.app](https://fatec-portifolio.vercel.app/) 
 
 ## Demonstração
 
