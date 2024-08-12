@@ -90,14 +90,9 @@
             <img src="assets/images/cat.png" alt="Gato Programador">
 
             <p>Se você tem alguma dúvida, sugestão, ou está interessado em colaborar em um projeto, não hesite
-                em
-                entrar
-                em
-                contato comigo!
+                em entrar em contato comigo pelos links abaixo ou pelo formulário!
             </p>
             <br>
-
-
             <div class="icons">
                 <a href="mailto:evelyn.cassinotte@fatec.sp.gov.br" class="icon"><img src="assets/images/email.png"
                         alt="E-mail Logo"></a>
@@ -109,6 +104,33 @@
                         alt="GitHub Logo"></a>
             </div>
             <br><br>
+
+            <h2>Envie um e-mail:</h2>
+
+            <form action="index.html" method="get">
+
+                <fieldset>
+                    <label for="txt_nome">Nome:</label>
+                    <input type="text" name="txt_nome" placeholder="Nome" required />
+
+                    <label for="txt_email">E-mail:</label>
+                    <input type="email" name="txt_email" placeholder="E-mail" required />
+                    <label for="txt_assunto">Assunto:</label>
+                    <input type="number" name="txt_assunto" placeholder="Título da mensagem" required />
+                    <label for="txt_conteudo">Mensagem: </label>
+                    <textarea name="txt_conteudo" cols="30" rows="10" placeholder="Digite uma menssagem...."
+                        required></textarea>
+                </fieldset>
+
+                <div class="botoes">
+                    <button type="submit" class="botao-enviar">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+                
+            </form>
+
+
+
         </div>
         <div class="area">
             <ul class="circles">
